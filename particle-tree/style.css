@@ -1,0 +1,55 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f5fff599;
+    font-family: "Playfair Display", serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+canvas {
+    display:block;
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgba(59, 33, 2, 0.5);
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 40px;
+    color: rgb(90, 53, 9);
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: 800;
+}
+
+/* Responsive design */
+.btn-container {
+    margin: 20px;
+}
+
+button {
+    background-color: #fff;
+    color: #0509;
+    border:  solid 2px #0509;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgba(223, 255, 216, 0.667);
+    border: #5a3509 2px solid;
+    color: #5a3509;
+    font-size: 1.2rem;
+}
