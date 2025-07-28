@@ -7,14 +7,25 @@
 [Particle Tree](https://ckcarr.github.io/Side-Project-Portfolio/particle-tree/)
 
 [Simple Kanban](https://ckcarr.github.io/Side-Project-Portfolio/kanban/)
+
+[Expense Tracker](https://ckcarr.github.io/Side-Project-Portfolio/expense-tracker/)
+
 []()
+
 []()
+
 []()
+
 []()
+
 []()
+
 []()
+
 []()
+
 []()
+
 []()
-[]()
+
 []()
