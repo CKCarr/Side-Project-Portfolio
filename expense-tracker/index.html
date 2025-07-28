@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Expense Tracker</h1>
+        <div class="balance-container">
+            <!-- total balance summary -->
+            <h2>Current Balance</h2>
+            <h1 id="balance">$0.00</h1>
+            <!-- income summary -->
+            <div class="summary">
+                <div class="income">
+                    <h3>Income</h3>
+                    <p id="income-amount">$0.00</p>
+                </div>
+                <!-- expenses summary -->
+                <div class="expenses">
+                    <h3>Expenses</h3>
+                    <p id="expense-amount">$0.00</p>
+                </div>
+            </div>
+        </div>
+        <!--- Main Content = Transactions list and Add transaction form container-->
+        <div class="main-content">
+            <div class="transaction-container">
+                <h2>
+                    Transaction Tracker
+                </h2>
+                <ul id="transaction-list">
+                    <!-- Transactions will be dynamically added here -->
+                </ul>
+            </div>
+            <div class="form-container">
+                <h2>Add Transaction</h2>
+                <form id="transaction-form">
+                    <!-- Transaction Form portion -->
+                    <div class="form-group">
+                        <label for="description">Description</label>
+                        <input type="text" id="description" placeholder="Enter description..." required>
+                    </div>
+                    <!-- Amount form portion-->
+                    <div class="form-group">
+                        <label for="amount">Amount</label>
+                        <input type="number" id="amount" placeholder="Enter Amount..." required>
+                        <small>Use negative (-) for expenses</small>
+                    </div>
+                    <!--Button to submit form -->
+                    <button type="submit">Add Transaction</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
